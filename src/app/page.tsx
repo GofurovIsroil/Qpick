@@ -1,5 +1,5 @@
 import { Banner } from "@/components/Banner/Banner";
-import { ProductCards } from "@/components/ProductCards/ProductCards";
+import { Products } from "@/components/Products/Products";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
         <Banner />
       </div>
       <div className="mt-[44px] mb-[60.6px]">
-        <ProductCards />
+        <Products />
       </div>
     </main>
   );

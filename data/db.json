@@ -30,7 +30,7 @@
       "path": "/Apple-EarPods(1).png",
       "price": 2327,
       "rate": "4.5",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "5"
     },
     {
@@ -38,7 +38,7 @@
       "path": "/Apple-EarPods(2).png",
       "price": 2327,
       "rate": "4.5",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "6"
     },
     {
@@ -54,7 +54,7 @@
       "path": "/Apple-EarPods(1).png",
       "price": 2327,
       "rate": "4.5",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "8"
     },
     {
@@ -62,7 +62,7 @@
       "path": "/Apple-EarPods(2).png",
       "price": 2327,
       "rate": "4.5",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "9"
     }
   ],
@@ -72,7 +72,7 @@
       "path": "/Apple-AirPods.png",
       "price": 9527,
       "rate": "4.7",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "1"
     },
     {
@@ -80,7 +80,7 @@
       "path": "/GERLAX-GH-04.png",
       "price": 6527,
       "rate": "4.5",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "2"
     },
     {
@@ -88,9 +88,34 @@
       "path": "/BOROFONE-BO4.png",
       "price": 7527,
       "rate": "4.5",
-      "isFavorite": false,
+      "isFavorite": true,
       "id": "3"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": "9",
+      "title": "Apple EarPods",
+      "path": "/Apple-EarPods(2).png",
+      "price": 2327,
+      "rate": "4.5",
+      "isFavorite": true
+    },
+    {
+      "id": "8",
+      "title": "Apple EarPods",
+      "path": "/Apple-EarPods(1).png",
+      "price": 2327,
+      "rate": "4.5",
+      "isFavorite": true
+    },
+    {
+      "id": "7",
+      "title": "Apple BYZ S852I",
+      "path": "/Apple-BYZ-S852I.png",
+      "price": 2927,
+      "rate": "4.7",
+      "isFavorite": false
+    }
+  ]
 }

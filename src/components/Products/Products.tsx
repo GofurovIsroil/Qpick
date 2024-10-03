@@ -6,7 +6,7 @@ import { useFavorite } from "../../../context/FavoriteContext";
 import { useRouter } from "next/navigation";
 import { Case, Product } from "../../../interfaces";
 
-export const ProductCards = () => {
+export const Products = () => {
   const [cases, setCases] = useState<Case[] | null>(null);
   const [headphones, setHeadphones] = useState<Product[] | null>(null);
   const [airphones, setAirphones] = useState<Product[] | null>(null);
@@ -89,7 +89,7 @@ export const ProductCards = () => {
       <p className="text-[#838383] text-xl leading-6 font-semibold mb-5">
         Чехлы
       </p>
-      <div className="flex items-center gap-[30px]">
+      <div className="grid grid-cols-1 items-center gap-[30px] md:grid-cols-2 xl:grid-cols-3">
         {cases?.map((i) => {
           return (
             <div
@@ -113,7 +113,7 @@ export const ProductCards = () => {
       <p className="text-[#838383] text-xl leading-6 font-semibold mt-[30px] mb-5">
         Наушники
       </p>
-      <div className="grid grid-cols-3 items-center gap-[30px]">
+      <div className="grid grid-cols-1 items-center gap-[30px] md:grid-cols-2 xl:grid-cols-3">
         {headphones?.map((i) => {
           return (
             <div
@@ -163,7 +163,7 @@ export const ProductCards = () => {
       <p className="text-[#838383] text-xl leading-6 font-semibold mt-[30px] mb-5">
         Беспроводные наушники
       </p>
-      <div className="grid grid-cols-3 items-center gap-[30px]">
+      <div className="grid grid-cols-1 items-center gap-[30px] md:grid-cols-2 xl:grid-cols-3">
         {airphones?.map((i) => {
           return (
             <div
