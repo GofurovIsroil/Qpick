@@ -1,0 +1,96 @@
+{
+  "case": [
+    {
+      "title": "Стеклянные",
+      "path": "/glass.png",
+      "id": "1"
+    },
+    {
+      "title": "Силиконовые",
+      "path": "/mellow.png",
+      "id": "2"
+    },
+    {
+      "title": "Кожаные",
+      "path": "/leather.png",
+      "id": "3"
+    }
+  ],
+  "headphones": [
+    {
+      "title": "Apple BYZ S852I",
+      "path": "/Apple-BYZ-S852I.png",
+      "price": 2927,
+      "rate": "4.7",
+      "isFavorite": false,
+      "id": "4"
+    },
+    {
+      "title": "Apple EarPods",
+      "path": "/Apple-EarPods(1).png",
+      "price": 2327,
+      "rate": "4.5",
+      "isFavorite": false,
+      "id": "5"
+    },
+    {
+      "title": "Apple EarPods",
+      "path": "/Apple-EarPods(2).png",
+      "price": 2327,
+      "rate": "4.5",
+      "isFavorite": false,
+      "id": "6"
+    },
+    {
+      "title": "Apple BYZ S852I",
+      "path": "/Apple-BYZ-S852I.png",
+      "price": 2927,
+      "rate": "4.7",
+      "isFavorite": false,
+      "id": "7"
+    },
+    {
+      "title": "Apple EarPods",
+      "path": "/Apple-EarPods(1).png",
+      "price": 2327,
+      "rate": "4.5",
+      "isFavorite": false,
+      "id": "8"
+    },
+    {
+      "title": "Apple EarPods",
+      "path": "/Apple-EarPods(2).png",
+      "price": 2327,
+      "rate": "4.5",
+      "isFavorite": false,
+      "id": "9"
+    }
+  ],
+  "airphones": [
+    {
+      "title": "Apple AirPods",
+      "path": "/Apple-AirPods.png",
+      "price": 9527,
+      "rate": "4.7",
+      "isFavorite": false,
+      "id": "1"
+    },
+    {
+      "title": "GERLAX GH-04",
+      "path": "/GERLAX-GH-04.png",
+      "price": 6527,
+      "rate": "4.5",
+      "isFavorite": false,
+      "id": "2"
+    },
+    {
+      "title": "BOROFONE BO4",
+      "path": "/BOROFONE-BO4.png",
+      "price": 7527,
+      "rate": "4.5",
+      "isFavorite": false,
+      "id": "3"
+    }
+  ],
+  "cart": []
+}
